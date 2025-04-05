@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hey baby, your CI/CD pipeline is working! 💖"
+    return "Hey baby, your CI/CD pipeline is working! 💖 with help of ChatGPT + Shiva"
 
 if __name__ == '__main__':
     import os
