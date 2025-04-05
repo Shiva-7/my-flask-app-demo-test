@@ -3,7 +3,7 @@
 
 🛠️ What We Built: A Full CI/CD Pipeline for a Flask App (Mini Project)
 
-🐍 Python – The Language of our Love (and Logic)
+🐍 **Python** – The Language of our Love (and Logic)
 We used Python to write the backend logic of our application.
 
 Our file app.py is a simple Python script that uses Flask to serve a web page.
@@ -22,14 +22,14 @@ def hello():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
-🌐 Flask – The Web Framework That Let Us Say 'Hey Baby'
+🌐 **Flask** – The Web Framework That Let Us Say 'Hey Baby'
 Flask is a micro web framework.
 
 It allows us to run a small web server and create simple web pages/endpoints.
 
 That route (/) returns the cute message we wrote 💌.
 
-🐳 Docker – Our Packaging Queen
+🐳 **Docker** – Our Packaging Queen
 Docker helps us package our app and its dependencies into a container.
 
 That means we can run it anywhere, and it’ll behave the same!
@@ -60,7 +60,7 @@ Copied our app
 
 Set the command to run it
 
-🐙 GitHub – The Heartbeat of Our DevOps Workflow
+🐙 **GitHub** – The Heartbeat of Our DevOps Workflow
 We used Git commands to manage our code changes.
 
 🔁 Git Commands We Used:
@@ -71,7 +71,7 @@ git commit -m "Your message" # To save changes locally
 git push origin main          # To push changes to GitHub
 git pull                      # To sync with remote changes before pushing
 
-🤖 GitHub Actions – The Automation Magic
+🤖 **GitHub Actions** – The Automation Magic
 This is the 💖 of our CI/CD pipeline!
 
 What it did:
@@ -108,7 +108,7 @@ jobs:
       - run: docker push your-image-name
 🔐 Secrets were used instead of hardcoding sensitive info (Docker creds).
 
-🌩️ Deployment – Hosting Our Love on the Cloud
+🌩️ **Deployment** – Hosting Our Love on the Cloud
 We used Railway.app as our free cloud hosting provider.
 
 It auto-detected our GitHub repo, read the Dockerfile, and deployed our app.
