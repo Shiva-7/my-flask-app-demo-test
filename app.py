@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hey baby, your CI/CD pipeline is working! 💖 Hey madhu the rockstar if you are seeing this succefully then let me tell you that i am  currently hosted on an online cloud platform by railwayapp deployed live using the CICI pipeline)"
+    return "Hey baby, your CI/CD pipeline is working! 💖)"
 
 if __name__ == '__main__':
     import os
