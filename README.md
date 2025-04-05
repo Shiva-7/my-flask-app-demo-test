@@ -11,8 +11,7 @@ Our file app.py is a simple Python script that uses Flask to serve a web page.
 📄 app.py
 
 python
-Copy
-Edit
+
 from flask import Flask
 app = Flask(__name__)
 
